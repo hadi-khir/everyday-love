@@ -43,7 +43,7 @@ export default function Home() {
       </div>
       <h1 className="text-2xl md:text-4xl font-bold my-4 text-red-700">An Ode to Those I Love</h1>
       <Link href={"https://benvj.com"} target="_blank">
-        <h2 className="text-xl md:text-2xl font-semibold hover:text-orange-500 transition-colors">Ben von Jagow</h2>
+        <h2 className="text-xl md:text-2xl font-semibold hover:text-orange-500 transition-colors cursor-pointer underline underline-offset-4">Ben von Jagow</h2>
       </Link>
       {poemStanzas.map((stanza, index) => (
         <Stanza key={index} text={stanza.text} bgColor={stanza.bgColor} />
