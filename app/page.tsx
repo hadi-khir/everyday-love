@@ -32,6 +32,15 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center min-h-screen bg-neutral-100 text-gray-800 relative">
+      <div className="w-full flex justify-center sm:hidden mb-4 mt-4">
+        <Image 
+          src="/cardinal-branch.png"
+          alt="Cardinal illustration"
+          width={50}
+          height={50}
+          className="w-auto h-auto"
+        />
+      </div>
       <div className="absolute top-4 right-4">
         <Image 
           src="/cardinal-branch.png"
