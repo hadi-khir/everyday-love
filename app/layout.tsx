@@ -9,7 +9,7 @@ const esteban = Esteban({
 });
 
 export const metadata: Metadata = {
-  title: "Everyday Love",
+  title: "An Ode to Those I Love",
   description: "A poem by Ben von Jagow",
 };
 
